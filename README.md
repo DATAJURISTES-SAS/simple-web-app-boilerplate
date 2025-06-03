@@ -281,6 +281,19 @@ CLIENT_SECRET=
 -   Frontend: http://localhost:4000
 -   Backend: http://localhost:8000
 
+## Power BI Dashboard Integration
+
+The backend exposes a sample analytics endpoint that returns sales data for
+demonstrating data visualization with Power BI. You can access the data at:
+
+```
+http://localhost:8000/api/analytics/sales-data
+```
+
+In Power BI Desktop, choose **Get Data > Web** and enter the above URL. After the
+data loads, build visualizations such as bar or pie charts using the retrieved
+categories and sales values.
+
 ## Recommended Branching Strategy
 
 This document outlines a solid branching strategy for your Nx monorepo architecture, considering
